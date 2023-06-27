@@ -1,0 +1,360 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+    font-family: Avenir, sans-serif;
+}
+
+nav{
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(8, 1, 1);
+    position: sticky;
+    top: 0px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    float: left;
+    width: 15%;
+    text-align: center;
+    position: relative;
+}
+
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a{
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    text-decoration: none;
+    color: rgb(253, 248, 248);
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+
+nav a:hover{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(247, 248, 244);
+    border-bottom: 2px solid rgb(250, 249, 245);
+}
+
+.sous{
+    font-family: 'Times New Roman', Times, serif;
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: rgb(240, 39, 39);
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+nav > ul li:hover .sous{
+    display: block;
+}
+.sous li{
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+.sous a{
+    padding: 10px;
+    border-bottom: none;
+}
+.sous a:hover{
+    border-bottom: none;
+    background-color: RGBa(200,200,200,0.1);
+}
+.deroulant > a::after{
+    font-family: 'Times New Roman', Times, serif;
+    content:"▼";
+    font-size: 12px;
+}
+
+.container
+ {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 50px 20px;
+    height: 1500px;
+    padding:0;
+    display:flex;
+}
+.col1 img
+{
+ width:70%;
+}
+.col2 img
+{
+  width:30%;
+}
+
+.barre{
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    height: 55px;
+    padding: 50px 10px;
+    background-color: red;
+    padding: 0;
+}
+
+.mar{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.deco{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    margin: 5px;
+    
+}
+
+.se{
+    color: red;
+}
+
+.welcome{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 2px;
+}
+
+
+.tableau{
+    width: 1320px;
+    height: 300px;
+    margin: 5px;
+}
+
+.img1{
+    width: 1310px;
+    height: 400px;
+    margin: 10px;
+}
+
+.m{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+    color: red
+}
+.actu{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+    color: red;
+}
+
+.p{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+}
+
+.ibb{
+    width: 1310px;
+    height: 400px;
+    margin: 10px;
+}
+
+
+
+
+
+fieldset{
+    font-family: 'Times New Roman', Times, serif;
+    width: 17%;
+    text-align: center;
+   
+}
+
+.btn{
+    color: white;
+    background-color: red;
+    padding-right: 1px;
+    text-align: left;
+}
+
+.imgbas{
+    width: 100%;
+    height: 100%;
+}
+
+.an{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+    color: red
+}
+
+
+
+footer {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .logo {
+    float: left;
+    
+  }
+  
+  .social-icons {
+    background-color:white;
+    border-radius: 10%;
+    display: inline-block;
+
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    
+  }
+  
+  .footer-sections {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .section {
+    flex-basis: 45%;
+  }
+  
+  .section h3 {
+    margin-bottom: 10px;
+  }
+  
+  .section p {
+    color: #888;
+  }
+  
+  section h1{
+    text-align: left;
+}
+.dg{
+    margin: 50px;
+    padding: 20px;
+}
+
+.d{
+    text-align: center;
+}
+
+.dir{
+    width: 40%;
+    margin-left: 350px;
+}
+.content_img{
+    display: flex;
+    width: 50%; 
+}
+
+.reda{
+ margin: 10px;
+ width: 600px;
+ 
+}
+
+
+.ekip{
+ width: 600px;
+ border-radius: 50px;
+}
+
+.img{
+    display: flex;
+    width: 50%;
+}
+
+
+.PP{
+    margin: 10px;
+    width: 600px;
+}
+
+
+.enket{
+    width: 600px;
+   
+}
+
+.on{
+    width: 500px;
+}
+
+
+
+
+.contact_form{width:600px;} 
+#main_form ul{list-style-type: none; margin: 0; padding: 0;;} 
+#main_form li{padding: 8px 0px 8px 25px;} 
+#main_form label{color:#2d2d2d; font-size: 17px; font-family: Arial;  width: 100px; float:left;} 
+#main_form input[type=text]{width: 350px; height: 25px; border-radius: 10px;} 
+#main_form input[type=password]{width: 350px; height: 25px; border-radius: 10px;} 
+#main_form select[name=dob]{width: 116px;} 
+
+h1{
+    text-align: center;
+}
+
+.bouton{
+    width: 100px;
+    height: 30px;
+    background-color:red ;
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+
+
+.container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="submit"] {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+  
+  
